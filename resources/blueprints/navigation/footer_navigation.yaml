@@ -1,0 +1,33 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          input_type: text
+          antlers: false
+          display: Title
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: url
+        field:
+          input_type: url
+          antlers: false
+          display: URL
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: target_blank
+        field:
+          default: false
+          display: 'Open up in new window'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above

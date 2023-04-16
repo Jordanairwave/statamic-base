@@ -1,0 +1,17 @@
+tree:
+  -
+    id: ac674127-d94d-435b-be71-e9bc71687066
+    title: 'Title 1'
+    url: 'https://title1.com'
+    data:
+      no_follow: true
+  -
+    id: c798a63b-a787-4ae4-86ff-0908659b08fc
+    title: 'Title 2'
+    url: 'https://title2.com'
+    data:
+      target_blank: true
+  -
+    id: 199f975c-e557-4569-ba3e-26bbcce2d975
+    title: 'Title 3'
+    url: 'https://title3.com'

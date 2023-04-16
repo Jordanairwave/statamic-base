@@ -1,0 +1,37 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: footer_navigation
+        field:
+          collapse: false
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: naivgation_link_label
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Naivgation Link Label'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: navigation_page_link
+                  field:
+                    display: 'Navigation Page Link'
+                    type: link
+                    icon: link
+                    instructions: 'Add the link of the page you would like to link to'
+                    listable: hidden
+                    instructions_position: above
+          display: 'Footer Navigation'
+          type: replicator
+          icon: replicator
+          instructions: 'Add the pages you would like to show in the footer navigation'
+          listable: hidden
+          instructions_position: above

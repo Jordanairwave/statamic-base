@@ -11,6 +11,17 @@
         <div class="mx-auto px-2 h-screen flex items-center justify-center">
             {{ template_content }}
         </div>
+        <footer class="site-footer">
+            <div class="site-footer_inner">
+                <nav class="site-footer_navigation">
+                    <ul>
+                        {{ nav:footer_navigation }}
+                            <li><a {{ if target_blank }}target="_blank" rel="noopener" {{ /if }} href="{{ url }}">{{ title }}</a></li>
+                        {{ /nav:footer_navigation }}
+                    </ul>
+                </nav>
+            </div>
+        </footer>
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>
