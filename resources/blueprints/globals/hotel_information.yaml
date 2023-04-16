@@ -1,0 +1,43 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: hotel_name
+        field:
+          input_type: text
+          antlers: false
+          display: 'Hotel Name'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: hotel_phone_number
+        field:
+          input_type: tel
+          antlers: false
+          display: 'Hotel Phone Number'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: hotel_email_address
+        field:
+          input_type: email
+          antlers: false
+          display: 'Hotel Email Address'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: hotel_address
+        field:
+          antlers: false
+          display: 'Hotel Address'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
